@@ -31,15 +31,6 @@ Use the "Pause" button to pause the countdown.
 Click the "Reset" button to reset the timer.
 
 ## Project Structure
-countdown-timer/
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   └── bg-image.png
-├── index.html
-└── README.md
 css/style.css: Contains the styles for the countdown timer.
 js/script.js: Contains the JavaScript code for the countdown timer functionality.
 index.html: The main HTML file that structures the web page.
