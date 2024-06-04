@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="main">
+            <div class="heading">
+                <h1>COUNTDOWN TIMER</h1>
+                
+            </div>
+
+            <div class="endtime">
+                <div class="date">
+                    <p>Enter Date</p>
+                    <input type="date" id="date">
+                </div>
+                <div class="time">
+                    <p>Enter Time</p>
+                    <input type="time" id="time">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="calculate" class="btns">Calculate</button>
+                <button id="stop" class="btns">Stop</button>
+                <button id="reset" class="btns">Reset</button>
+            </div>
+
+            <div class="countdown-timer">
+
+                    <div class="circle" style="--clr:#ff2972">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="dd"></circle>
+                        </svg>
+                        <div id="days">0 <br> <span>Days</span></div>
+                    </div>
+
+                    <div class="circle" style="--clr:#fee800">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="hh"></circle>
+                        </svg>
+                        <div id="hours">0 <br> <span>Hours</span></div>
+                    </div>
+
+                    <div class="circle" style="--clr:#04fc43">
+                        <svg>
+                            <circle cx="70" cy="70" r="70""></circle>
+                            <circle cx="70" cy="70" r="70" id="mm"></circle>
+                        </svg>
+                        <div id="minutes">0 <br> <span>Minutes</span></div>
+                    </div>
+
+                    <div class="circle" style="--clr:#04a3ff">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="ss"></circle>
+                        </svg>
+                        <div id="seconds">0 <br> <span>Seconds</span></div>
+                    </div>
+
+            </div>
+
+            <div class="footer">
+                <p>Created By @Jitender Yadav</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
